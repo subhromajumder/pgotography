@@ -1,0 +1,112 @@
+* { font-family: 'Old Standard TT', serif; color: #565656; }
+
+.carousel-inner img { width: 100%; height: calc(100vh - 56px) !important; }
+.carousel-inner,
+.carousel-item { height: 100%; }
+.carousel-item { background-color: #000; }
+.carousel-item img { height: 100%; object-fit: cover; object-position: center; }
+.carousel-indicators li { width: 10px; height: 10px; border-radius: 100%; }
+
+.hr-location { position: relative; border: none; height: 1px; background: black; }
+.gallery img { height: 250px;}
+.hov-container {
+position: relative;
+width: 50%;
+}
+
+.hov-image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.hov-container:hover .hov-image {
+opacity: 0.5;
+}
+
+.hov-container:hover .middle {
+opacity: 1;
+}
+
+.hov-text {
+background-color: white;
+color: black;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+/* -------------------- */
+/* FOOTER */
+/* -------------------- */
+
+.social-links {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+}
+
+.social-links li a:hover,
+.social-links li a:active {
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 110%;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-linkedin-in,
+.fa-envelope {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.fa-instagram:hover,
+.fa-instagram:active {
+  color: #dd4b39;
+}
+
+.fa-facebook:hover,
+.fa-facebook:active {
+  color: #3b5998;
+}
+
+.fa-linkedin-in:hover,
+.fa-linkedin-in:active {
+  color: #007bb5;
+}
+
+.fa-envelope:hover,
+.fa-envelope:active {
+  color: #ff4500;
+}
